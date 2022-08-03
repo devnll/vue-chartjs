@@ -48,7 +48,7 @@ specifiers:
   rollup-plugin-swc: ^0.2.0
   simple-git-hooks: ^2.7.0
   simple-github-release: ^1.0.0
-  size-limit: ^7.0.8
+  size-limit: ^8.0.0
   standard-version: ^9.3.2
   tsd: ^0.22.0
   typescript: ^4.6.2
@@ -62,7 +62,7 @@ devDependencies:
   '@commitlint/cli': 17.0.3_@swc+core@1.2.218
   '@commitlint/config-conventional': 17.0.3
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.77.0
-  '@size-limit/preset-big-lib': 7.0.8_vte6pnd3xtdry5yyug4odrgz3u
+  '@size-limit/preset-big-lib': 7.0.8_mwaeu5ks3ukvkkmozdezzixusa
   '@storybook/addon-actions': 6.5.9
   '@storybook/addon-essentials': 6.5.9_dtftwja5hl22oojdgcpfzgsdv4
   '@storybook/builder-webpack5': 6.5.9_gjudzuppftdvw62y62dqtr7ks4
@@ -104,7 +104,7 @@ devDependencies:
   rollup-plugin-swc: 0.2.1_mmjp2x2k5p5ronlymzqdumdeiq
   simple-git-hooks: 2.8.0
   simple-github-release: 1.0.0
-  size-limit: 7.0.8
+  size-limit: 8.0.0
   standard-version: 9.5.0
   tsd: 0.22.0
   typescript: 4.7.4
@@ -2343,25 +2343,25 @@ packages:
       - supports-color
     dev: true
 
-  /@size-limit/file/7.0.8_size-limit@7.0.8:
+  /@size-limit/file/7.0.8_size-limit@8.0.0:
     resolution: {integrity: sha512-1KeFQuMXIXAH/iELqIX7x+YNYDFvzIvmxcp9PrdwEoSNL0dXdaDIo9WE/yz8xvOmUcKaLfqbWkL75DM0k91WHQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     peerDependencies:
       size-limit: 7.0.8
     dependencies:
       semver: 7.3.5
-      size-limit: 7.0.8
+      size-limit: 8.0.0
     dev: true
 
-  /@size-limit/preset-big-lib/7.0.8_vte6pnd3xtdry5yyug4odrgz3u:
+  /@size-limit/preset-big-lib/7.0.8_mwaeu5ks3ukvkkmozdezzixusa:
     resolution: {integrity: sha512-m9C+FPPmETg9vg3V3Aq4hTflX1GVRpjYO94C4gqrl26I5YqB+BlKf8WKHmna3IbmJyePf7M8qvya/ougzMVHkQ==}
     peerDependencies:
       size-limit: 7.0.8
     dependencies:
-      '@size-limit/file': 7.0.8_size-limit@7.0.8
-      '@size-limit/time': 7.0.8_size-limit@7.0.8
-      '@size-limit/webpack': 7.0.8_vte6pnd3xtdry5yyug4odrgz3u
-      size-limit: 7.0.8
+      '@size-limit/file': 7.0.8_size-limit@8.0.0
+      '@size-limit/time': 7.0.8_size-limit@8.0.0
+      '@size-limit/webpack': 7.0.8_mwaeu5ks3ukvkkmozdezzixusa
+      size-limit: 8.0.0
     transitivePeerDependencies:
       - '@swc/core'
       - bufferutil
@@ -2373,7 +2373,7 @@ packages:
       - webpack-cli
     dev: true
 
-  /@size-limit/time/7.0.8_size-limit@7.0.8:
+  /@size-limit/time/7.0.8_size-limit@8.0.0:
     resolution: {integrity: sha512-CS3pHTxeQXgrrMbhlqYfSR+b4QGp1rjEcYYkByIP+X/Go88R44yp19tyBFmmCQzs2Te2BAxfq3jv8FG+54oBew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     peerDependencies:
@@ -2381,7 +2381,7 @@ packages:
     dependencies:
       estimo: 2.3.6
       react: 17.0.2
-      size-limit: 7.0.8
+      size-limit: 8.0.0
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -2389,7 +2389,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@size-limit/webpack/7.0.8_vte6pnd3xtdry5yyug4odrgz3u:
+  /@size-limit/webpack/7.0.8_mwaeu5ks3ukvkkmozdezzixusa:
     resolution: {integrity: sha512-69YuY0o4geRNJDb55Vri+bNPs9+WZlK0pzcziip1p4uajCFMFQE0K8pKj3vsIOUADdTcimfypHciriCY/qrnJQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     peerDependencies:
@@ -2397,7 +2397,7 @@ packages:
     dependencies:
       escape-string-regexp: 4.0.0
       nanoid: 3.3.4
-      size-limit: 7.0.8
+      size-limit: 8.0.0
       webpack: 5.73.0_@swc+core@1.2.218
     transitivePeerDependencies:
       - '@swc/core'
@@ -14022,9 +14022,9 @@ packages:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
     dev: true
 
-  /size-limit/7.0.8:
-    resolution: {integrity: sha512-3h76c9E0e/nNhYLSR7IBI/bSoXICeo7EYkYjlyVqNIsu7KvN/PQmMbIXeyd2QKIF8iZKhaiZQoXLkGWbyPDtvQ==}
-    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+  /size-limit/8.0.0:
+    resolution: {integrity: sha512-344dzCZZiTz+N0WS801SNG/qd8MCa6dzJhsj8gLQg4JlmddwUdi/Ol0HfliEVL7jgtOz8fNgDeB2+14xwalvVA==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     dependencies:
       bytes-iec: 3.1.1
@@ -16079,3 +16079,5 @@ packages:
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
     dev: true
+
+publishDirectory: package
